@@ -113,6 +113,8 @@ aside {
 	background: #1D2F3D;
 	padding: 20px;
 	border-radius: 3px;
+	top: 0px;
+	position: sticky;
 }
 
 aside .titulo {
@@ -127,6 +129,7 @@ aside .indice a {
 	display: block;
 	margin-bottom: 10px;
 	color: #FFCD48;
+
 }
 
 /* * ============================== */
