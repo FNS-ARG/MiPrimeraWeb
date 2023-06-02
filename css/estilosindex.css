@@ -62,7 +62,8 @@ body {
 /* * ===== IMAGEN ====== */
 
 .contenedor-imagen {
-	height: 100vh;
+	width: auto;
+	height: auto;
 }
 
 .contenedor-imagen img {
@@ -153,9 +154,34 @@ footer div p{
 	}
 
 	.contenedor-imagen {
-		height: 50vh;
+		width: auto;
+		height: auto;
 	}
 
+	main .contenedor {
+		flex-direction: column;
+	}
+	aside {
+		position: static;
+	}
+}
+
+
+@media screen and (max-width: 450px){
+	.navbar .contenedor {
+		flex-wrap: wrap;
+		margin: 0;
+		width: 100%;
+	}
+
+	.navbar a {
+		width: auto;
+		flex: 1;
+	}
+	.contenedor-imagen {
+		width: auto;
+		height: auto;
+	}
 	main .contenedor {
 		flex-direction: column;
 	}
